@@ -3,8 +3,8 @@
 # Host:            push to GitHub + connect the repo on https://readthedocs.org (see PUBLISHING.md)
 
 project = "ATick for Python"
-author = "Aniket Chaturvedi"
-copyright = "2026, Aniket Chaturvedi"
+author = "Axonate Tech"
+copyright = "2026, Axonate Tech"
 release = "1.0.6"
 version = "1.0.6"
 

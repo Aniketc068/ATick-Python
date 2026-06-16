@@ -21,7 +21,7 @@ pfx = open(os.path.join(SAMPLES, "ABC12.pfx"), "rb").read()
 pdf = atick.set_metadata(
     pdf,
     title="Agreement 2026",
-    author="Aniket Chaturvedi",
+    author="Axonate Tech",
     subject="Demonstration of metadata",
     keywords="dsc, esign, pades, atick",
     application="ATick",                              # -> /Creator

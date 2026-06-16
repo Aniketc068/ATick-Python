@@ -21,7 +21,7 @@ Run `atick <command> -h` for every option.
 
 ```bash
 atick sign in.pdf out.pdf --pfx my.pfx --password ••• \
-      --cn "Aniket Chaturvedi" --org "Acme Corp" --reason Approved \
+      --cn "Axonate Tech" --org "Acme Corp" --reason Approved \
       --timestamp --ltv \
       --page 1 --rect 300,55,575,175
 ```
@@ -47,7 +47,7 @@ Key options:
 
 ```bash
 # CN on the left + distinguished name, always-green tick
-atick sign in.pdf out.pdf --pfx my.pfx --password ••• --cn "Aniket Chaturvedi" \
+atick sign in.pdf out.pdf --pfx my.pfx --password ••• --cn "Axonate Tech" \
       --cn-left --dn "CN=Aniket, O=Personal, C=IN" --always-check
 
 # custom-text-only appearance (\n = new line, *x* = bold)

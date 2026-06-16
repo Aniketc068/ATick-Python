@@ -41,7 +41,7 @@ import atick
 signed = atick.sign_pfx(
     open("doc.pdf", "rb").read(),
     pfx=open("my.pfx", "rb").read(), password="••••",
-    style=atick.Style(cn="Aniket Chaturvedi", reason="Approved"),
+    style=atick.Style(cn="Axonate Tech", reason="Approved"),
     placements=[(1, (300, 55, 575, 175))],
     pades=True, timestamp=True, ltv=True,     # PAdES-B-LT
 )
@@ -170,8 +170,8 @@ Colour the mark with any Python colour: `mark_color="#E53935"`, `"blue"`, `(255,
 ## Custom appearance
 
 ```python
-atick.Style(cn="Aniket Chaturvedi", image="cn")                       # CN as text on the LEFT (Adobe-style)
-atick.Style(cn="Aniket Chaturvedi", dn="CN=Aniket, O=Personal, C=IN") # DN under the "Signed by:" line
+atick.Style(cn="Axonate Tech", image="cn")                       # CN as text on the LEFT (Adobe-style)
+atick.Style(cn="Axonate Tech", dn="CN=Aniket, O=Personal, C=IN") # DN under the "Signed by:" line
 atick.Style(body="*APPROVED*\nReviewed by: *Aniket*\nLegally *binding*.")  # ONLY this text; \n = line, *x* = bold
 atick.Style(cn="…", image="logo.png")                                 # your own logo (default = ATick logo)
 atick.Style(cn="…", image=False)                                      # no logo
@@ -249,7 +249,7 @@ Every feature is available from the terminal too:
 
 ```bash
 atick sign in.pdf out.pdf --pfx my.pfx --password ••• \
-      --cn "Aniket Chaturvedi" --reason Approved \
+      --cn "Axonate Tech" --reason Approved \
       --timestamp --ltv --always-check --cn-left --dn "CN=Aniket, O=Personal, C=IN" \
       --page 1 --rect 300,55,575,175
 
@@ -316,6 +316,6 @@ ATick is **dual-licensed** — free for personal & open use, paid if you sell:
   open-source projects (released publicly under AGPL-3.0).
 - **Commercial license (paid)** — if you **build a product with ATick and sell it**, or use it in a
   **closed-source / commercial** product, you must buy a commercial license first. Contact
-  **aniketc.pro@gmail.com** for a quote.
+  **info@axonatetech.com** for a quote.
 
-See [LICENSING.md](LICENSING.md) for details. © 2026 Aniket Chaturvedi.
+See [LICENSING.md](LICENSING.md) for details. © 2026 Axonate Tech.

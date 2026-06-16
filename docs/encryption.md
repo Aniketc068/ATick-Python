@@ -32,7 +32,7 @@ plain = atick.decrypt(encrypted_pdf, "the-password")
 out = atick.set_metadata(
     pdf,
     title="Agreement",
-    author="Aniket Chaturvedi",
+    author="Axonate Tech",
     subject="Service contract",
     keywords="contract, signed",
     application="My App",

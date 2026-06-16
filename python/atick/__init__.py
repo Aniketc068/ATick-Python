@@ -12,7 +12,7 @@ One-call signing with a .pfx
     signed = atick.sign_pfx(
         open("doc.pdf", "rb").read(),
         pfx=open("cert.pfx", "rb").read(), password="secret",
-        style=atick.Style(cn="Aniket Chaturvedi", image="logo.png"),
+        style=atick.Style(cn="Axonate Tech", image="logo.png"),
         placements=[(1, (40, 60, 260, 160))],
         pades=True, hash_algo="sha256",
         timestamp=True,                       # PAdES-B-T (built-in TSA + fallback)

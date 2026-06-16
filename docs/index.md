@@ -18,7 +18,7 @@ sd_hide_title: true
   "softwareVersion": "1.0.6",
   "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
   "license": "https://www.gnu.org/licenses/agpl-3.0.html",
-  "author": { "@type": "Person", "name": "Aniket Chaturvedi" },
+  "author": { "@type": "Person", "name": "Axonate Tech" },
   "url": "https://atick.readthedocs.io/",
   "codeRepository": "https://github.com/Aniketc068/ATick-Python",
   "downloadUrl": "https://pypi.org/project/atick/",
@@ -62,7 +62,7 @@ import atick
 signed = atick.sign_pfx(
     open("doc.pdf", "rb").read(),
     pfx=open("my.pfx", "rb").read(), password="••••",
-    style=atick.Style(cn="Aniket Chaturvedi", reason="Approved"),
+    style=atick.Style(cn="Axonate Tech", reason="Approved"),
     placements=[(1, (300, 55, 575, 175))],
     pades=True, timestamp=True, ltv=True,     # PAdES-B-LT
 )

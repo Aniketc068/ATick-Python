@@ -5,7 +5,7 @@ the left, the signer details on the right, and the validity mark.
 
 ```python
 atick.Style(
-    cn="Aniket Chaturvedi",          # common name (shown bold after "Digitally Signed by:")
+    cn="Axonate Tech",          # common name (shown bold after "Digitally Signed by:")
     org="Acme Corp",                  # organisation line
     reason="Approved",                # "Reason: …"
     location="New Delhi",             # "Location: …"
@@ -142,7 +142,7 @@ atick.Style(cn="…", mark_gradient=["red", "orange", "yellow"])   # axial gradi
 ## Distinguished name
 
 ```python
-atick.Style(cn="Aniket Chaturvedi", dn="CN=Aniket Chaturvedi, O=Personal, C=IN")
+atick.Style(cn="Axonate Tech", dn="CN=Axonate Tech, O=Personal, C=IN")
 ```
 
 The DN is shown directly under the "Digitally Signed by:" line.
@@ -153,7 +153,7 @@ Show **only** your own text — no "Signed by", no date, no CN structure. `\n` s
 `*word*` makes that run **bold**.
 
 ```python
-atick.Style(body="*APPROVED*\nReviewed by: *Aniket Chaturvedi*\nThis document is *legally binding*.")
+atick.Style(body="*APPROVED*\nReviewed by: *Axonate Tech*\nThis document is *legally binding*.")
 ```
 
 ## Invisible signature
