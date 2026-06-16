@@ -23,10 +23,10 @@
 
 | Language | Install | Source · Docs |
 |---|---|---|
-| **Java** | `io.github.aniketc068:atick` (Maven) | [ATick-Java](https://github.com/Aniketc068/ATick-Java) · [docs](https://atick-java.readthedocs.io/) |
-| **.NET** | `dotnet add package ATick` | [ATick-DotNet](https://github.com/Aniketc068/ATick-DotNet) · [docs](https://atick-dotnet.readthedocs.io/) |
-| **Node.js** | `npm install atick` | [ATick-Node](https://github.com/Aniketc068/ATick-Node) · [docs](https://atick-node.readthedocs.io/) |
-| **PHP** | `composer require aniketc068/atick` | [ATick-PHP](https://github.com/Aniketc068/ATick-PHP) · [docs](https://atick-php.readthedocs.io/) |
+| **Java** | `io.github.aniketc068:atick` (Maven) | [ATick-Java](https://github.com/Aniketc068/ATick-Java) · [docs](https://atick-web.readthedocs.io/docs/java/) |
+| **.NET** | `dotnet add package ATick` | [ATick-DotNet](https://github.com/Aniketc068/ATick-DotNet) · [docs](https://atick-web.readthedocs.io/docs/dotnet/) |
+| **Node.js** | `npm install atick` | [ATick-Node](https://github.com/Aniketc068/ATick-Node) · [docs](https://atick-web.readthedocs.io/docs/node/) |
+| **PHP** | `composer require aniketc068/atick` | [ATick-PHP](https://github.com/Aniketc068/ATick-PHP) · [docs](https://atick-web.readthedocs.io/docs/php/) |
 
 ---
 
